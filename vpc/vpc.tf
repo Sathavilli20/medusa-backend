@@ -69,6 +69,6 @@ output "public_subnets" {
 }
 
 variable "aws_region" {
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
