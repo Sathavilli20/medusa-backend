@@ -2,10 +2,10 @@ FROM node:16
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY some-folder/package*.json ./
 RUN npm install
 
-COPY . .
+COPY some-folder ./
 
 RUN npm run build
 
